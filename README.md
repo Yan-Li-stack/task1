@@ -45,3 +45,18 @@
 ## ERD диаграмма (Задание 3)
 
 ![ERD](задание3.png)
+
+## Задание 5. База данных (PostgreSQL)
+
+Создана БД `tour_operator_db` с 4 связанными таблицами (`clients`, `tours`, `bookings`, `payments`).
+Весь SQL-код (создание, заполнение, 5 требуемых запросов) находится в файле [db_scripts.sql](db_scripts.sql).
+
+**Схема БД (pgAdmin ERD Tool):**
+![ERD](docs/screen_erd_pgadmin.png)
+
+**Результаты запросов:**
+![Запрос 1](docs/screen_query1.png)
+![Запрос 2](docs/screen_query2.png)
+![Запрос 3](docs/screen_query3.png)
+![Запрос 4](docs/screen_query4.png)
+![Запрос 5](docs/screen_query5.png)
